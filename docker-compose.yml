@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  http:
+    build: .
+    ports:
+      - "8000:8000"
+      - "9229:9229"
